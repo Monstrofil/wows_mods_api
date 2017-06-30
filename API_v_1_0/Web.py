@@ -1,7 +1,9 @@
 #!/usr/bin/python
 # coding=utf-8
-__author__ = "Aleksandr Shyshatsky"
+from urllib import addinfourl
 from typing import Callable
+
+__author__ = "Aleksandr Shyshatsky"
 
 
 class Web(object):
@@ -24,7 +26,7 @@ class Web(object):
         """
         Open url and get result in callback (async)
         :type url: str 
-        :type callback: Callable[str]
+        :type callback: Callable[urllib.addinfourl]
         :type data: dict
         :rtype: None 
         """

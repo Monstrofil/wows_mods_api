@@ -16,8 +16,8 @@ class Callbacks(object):
 
     def callback(self, dt, func, *args, **kw):
         """
-        Call another function with some delay.
-        :param int dt: delay, ms
+        Call another function with given interval until cancel is called.
+        :param int dt: delay, seconds
         :param object func: object with __call__ defined
         :param list args: args to pass into func
         :param dict kw: kwargs to pass into func

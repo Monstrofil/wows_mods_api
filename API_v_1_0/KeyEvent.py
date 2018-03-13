@@ -18,3 +18,15 @@ class KeyEvent(object):
         :rtype: bool
         """
         pass
+
+    def isCtrlDown(self):
+        """
+        :rtype: bool
+        """
+        pass
+
+    def isAltDown(self):
+        """
+        :rtype: bool
+        """
+        pass
